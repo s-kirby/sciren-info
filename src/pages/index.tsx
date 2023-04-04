@@ -21,13 +21,19 @@ export default function Home() {
             Home
           </Link>
           <a href="/sprint1" className={styles.miniLink}>
-            Sprint 1
-          </a>
-          <a href="/sprint2" className={styles.miniLink}>
-            Sprint 2
+            Sprints
           </a>
           <a href="/tech" className={styles.miniLink}>
             Technical Details
+          </a>
+          <a href="/team" className={styles.miniLink}>
+            The Team
+          </a>
+          <a
+            href="https://github.com/pdthompson5/SciREN-Net"
+            className={styles.miniLink}
+          >
+            Github Repo
           </a>
         </div>
 
@@ -105,7 +111,6 @@ export default function Home() {
             region.
           </li>
         </ul>
-        <h2 className={styles.sheader}>Sprint 2</h2>
       </main>
     </>
   );

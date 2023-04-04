@@ -5,7 +5,7 @@ import styles from "@/styles/Home.module.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Tech() {
   return (
     <>
       <Head>
@@ -21,19 +21,25 @@ export default function Home() {
             Home
           </Link>
           <a href="/sprint1" className={styles.miniLink}>
-            Sprint 1
-          </a>
-          <a href="/sprint2" className={styles.miniLink}>
-            Sprint 2
+            Sprints
           </a>
           <a href="/tech" className={styles.miniLink + " " + styles.sunderline}>
             Technical Details
+          </a>
+          <a href="/team" className={styles.miniLink}>
+            The Team
+          </a>
+          <a
+            href="https://github.com/pdthompson5/SciREN-Net"
+            className={styles.miniLink}
+          >
+            Github Repo
           </a>
         </div>
 
         <hr></hr>
         <h2 className={styles.sheader}>Approach</h2>
-        <h3>General Philosophy</h3>
+        <h3 className={styles.sheader1}>General Philosophy</h3>
         <p>
           With the knowledge that our project is on a serious time crunch for
           its scope, we&apos;ve prioritized two metrics above all else:
@@ -42,14 +48,14 @@ export default function Home() {
           We&apos;ve been open to sacrifices in scalability and beauty for the
           benefit of our learning experience and a tight iteration loop.
         </p>
-        <h3>Funcitonality</h3>
+        <h3 className={styles.sheader1}>Funcitonality</h3>
         <p>
           Since SciREN has no existing platform to connect users, our site is
           focused on creating a secure and simple social experience first, with
           auxilary features to follow. The top priority is to deliver a complete
           MVP that facilitates this novel core for our client.
         </p>
-        <h3>Asthetics</h3>
+        <h3 className={styles.sheader1}>Asthetics</h3>
         <p>
           The design of our site is a work in progress, but we&apos;ve decided
           to postpone settling on a beautiful theme until the site has reached
@@ -57,7 +63,7 @@ export default function Home() {
           term would lead to slower progress due to frequent refactoring.
         </p>
         <h2 className={styles.sheader}>Tools / APIs / Frameworks</h2>
-        <h3>Web Frameworks</h3>
+        <h3 className={styles.sheader1}>Web Frameworks</h3>
         <p>
           We&apos;ve decided to use Next.js + React as our web framework for
           this project for its routing power and integration with vercel for
@@ -65,7 +71,7 @@ export default function Home() {
           local synchronization requirements and promotes fast iteration due to
           its document structure.
         </p>
-        <h3>Database</h3>
+        <h3 className={styles.sheader1}>Database</h3>
         <p>
           Again, with simplicity in mind, we&apos;ve decided to use MongoDB as
           our database driver for its mutability and cloud accessibility.
@@ -75,12 +81,12 @@ export default function Home() {
           large-scale projects would prefer a table-storage DB, but the document
           structure has made prototyping fantastically comfortable.
         </p>
-        <h3>Data Storage</h3>
+        <h3 className={styles.sheader1}>Data Storage</h3>
         <p>
           We&apos;ve decided to use AWS S3 for our data storage, as there exists
-          no affordable compeditor. GCP is for startups and over-funded labs.
+          no affordable compeditor.
         </p>
-        <h3>Authentication</h3>
+        <h3 className={styles.sheader1}>Authentication</h3>
         <p>
           User authentication was a must, and we quickly found{" "}
           <a
@@ -94,7 +100,7 @@ export default function Home() {
           This allowed us to create our own sign-in system, rather than relying
           on an existing solution.
         </p>
-        <h3>Design</h3>
+        <h3 className={styles.sheader1}>Design</h3>
         <p>
           As mentioned before, design is not our concentration; however, we
           found that the{" "}
