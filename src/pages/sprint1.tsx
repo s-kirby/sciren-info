@@ -20,24 +20,24 @@ export default function Home() {
           <Link href="/" className={styles.miniLink}>
             Home
           </Link>
-          <a
+          <Link
             href="/sprint1"
             className={styles.miniLink + " " + styles.sunderline}
           >
             Sprints
-          </a>
-          <a href="/tech" className={styles.miniLink}>
+          </Link>
+          <Link href="/tech" className={styles.miniLink}>
             Technical Details
-          </a>
-          <a href="/team" className={styles.miniLink}>
+          </Link>
+          <Link href="/team" className={styles.miniLink}>
             The Team
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://github.com/pdthompson5/SciREN-Net"
             className={styles.miniLink}
           >
             Github Repo
-          </a>
+          </Link>
         </div>
         <hr></hr>
         <h2 className={styles.sheader}>Sprint 1 Goals</h2>

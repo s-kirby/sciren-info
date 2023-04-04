@@ -20,21 +20,24 @@ export default function Tech() {
           <Link href="/" className={styles.miniLink}>
             Home
           </Link>
-          <a href="/sprint1" className={styles.miniLink}>
+          <Link href="/sprint1" className={styles.miniLink}>
             Sprints
-          </a>
-          <a href="/tech" className={styles.miniLink + " " + styles.sunderline}>
+          </Link>
+          <Link
+            href="/tech"
+            className={styles.miniLink + " " + styles.sunderline}
+          >
             Technical Details
-          </a>
-          <a href="/team" className={styles.miniLink}>
+          </Link>
+          <Link href="/team" className={styles.miniLink}>
             The Team
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://github.com/pdthompson5/SciREN-Net"
             className={styles.miniLink}
           >
             Github Repo
-          </a>
+          </Link>
         </div>
 
         <hr></hr>

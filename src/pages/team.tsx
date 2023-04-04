@@ -20,21 +20,24 @@ export default function Team() {
           <Link href="/" className={styles.miniLink}>
             Home
           </Link>
-          <a href="/sprint1" className={styles.miniLink}>
+          <Link href="/sprint1" className={styles.miniLink}>
             Sprints
-          </a>
-          <a href="/tech" className={styles.miniLink}>
+          </Link>
+          <Link href="/tech" className={styles.miniLink}>
             Technical Details
-          </a>
-          <a href="/team" className={styles.miniLink + " " + styles.sunderline}>
+          </Link>
+          <Link
+            href="/team"
+            className={styles.miniLink + " " + styles.sunderline}
+          >
             The Team
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://github.com/pdthompson5/SciREN-Net"
             className={styles.miniLink}
           >
             Github Repo
-          </a>
+          </Link>
         </div>
 
         <hr></hr>
