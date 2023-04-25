@@ -89,7 +89,7 @@ export default function Home() {
           searchability upgrades. It also signified the first steps into
           migrating the core of SciREN&apos;s platform with document storage.
         </p>
-        <h2 className={styles.sheader}>Sprint 2 Goals</h2>
+        <h2 className={styles.sheader}>Sprint 3 Goals</h2>
         <ul>
           <li className={styles.sli}>
             CRUD Lesson Plans - Allow users to create, read, update, and delete
