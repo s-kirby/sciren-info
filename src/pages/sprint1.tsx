@@ -89,6 +89,37 @@ export default function Home() {
           searchability upgrades. It also signified the first steps into
           migrating the core of SciREN&apos;s platform with document storage.
         </p>
+        <h2 className={styles.sheader}>Sprint 2 Goals</h2>
+        <ul>
+          <li className={styles.sli}>
+            CRUD Lesson Plans - Allow users to create, read, update, and delete
+            lesson plans
+          </li>
+          <li className={styles.sli}>
+            Expand Profile Fields and Polish Page - Extend Profiles to include
+            all academic info, and improve the page layout
+          </li>
+          <li className={styles.sli}>
+            Administrative Dashboard - Add an executive control panel for the
+            client to manage malicious site use
+          </li>
+          <li className={styles.sli}>
+            Lesson Plan and Profile Discoverability - Add search and sorting
+            pages for profiles and lessons
+          </li>
+          <li className={styles.sli}>
+            Mobile-Friendly UX - Add view-port responsive CSS to scale for
+            mobile browsers
+          </li>
+        </ul>
+        <h2 className={styles.sheader}>Target Use Cases</h2>
+        <p>
+          Sprint 2 was our time to wrap up the major functionality of the site
+          and polish the user experience. We ambitiously set out to add a new
+          document storage system, which we ran out of time for; however, the
+          user experience and profile systems were completed to a degree which
+          we all take pride in.
+        </p>
       </main>
     </>
   );
